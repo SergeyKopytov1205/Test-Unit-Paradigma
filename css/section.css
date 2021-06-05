@@ -1,0 +1,227 @@
+.section {
+   width: 46.875vw;
+}
+.section__title {
+   width: 100%;
+   margin-bottom: 3.6458vw;
+}
+.title__main {
+   font-size: 3.125vw;
+   font-weight: 400;
+}
+.title__main-bold {
+   font-weight: 700;
+}
+.section__boolit {
+   width: 100%;
+   display: flex;
+   margin-bottom: 3.125vw;
+}
+.boolit__number {
+   margin-left: 1.3021vw;
+   flex-basis: 4.1667vw;
+   position: relative;
+}
+.boolit__left {
+   flex-basis: 11.7188vw;
+   
+}
+.boolit__center {
+   flex-basis: 10.4167vw;
+   margin: 0 auto;
+   position: relative;
+   margin-right: 4.1vw;
+}
+
+.boolit__right {
+   flex-basis: 10.4167vw;
+   position: relative;
+   margin-right: 1.3vw;
+}
+.boolit__content {
+   font-size: 1.042vw;
+   font-weight: 400;
+}
+.boolit__number-black {
+   font-size: 3.75vw;
+   font-weight: 800;
+   line-height: 0.9;
+}
+.boolit__bold {
+   font-size: 1.042vw;
+   font-weight: 700;
+}
+.boolit__number::before,
+.boolit__center::before,
+.boolit__right::before {
+   content: "";
+   display: block;
+   width: 1.3021vw;
+   height: 0.2604vw;
+   background: #fe5851;
+   transform: rotate(-45deg);
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   position: absolute;
+   left: -1.3021vw;
+}
+.section__other {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+}
+.section__sale {
+   width: 24.4792vw;
+}
+.sale__desc {
+   width: 20.8333vw;
+   margin-left: 1.3021vw;
+   font-size: 0.938vw;
+   font-weight: 500;
+   line-height: 1.5;
+   margin-bottom: 1.5625vw;
+}
+.sale__distin {
+   font-size: 0.938vw;
+   font-weight: 700;
+   border-radius: 5px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0px 0px 40px 0px rgba(20, 21, 26, 0.1);
+   padding: 0 0.2604vw;
+}
+.sale__button {
+   text-align: left;
+   width: 22.1354vw;
+   color: #ffffff;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 0.885vw;
+   padding: 1.3021vw 2.8646vw 1.3021vw 5.2083vw;
+   border-radius: 5px;
+   background-image: -moz-linear-gradient(90deg, rgb(254, 80, 79) 0%, rgb(254, 98, 79) 56%, rgb(254, 116, 79) 100%);
+   background-image: -webkit-linear-gradient(90deg, rgb(254, 80, 79) 0%, rgb(254, 98, 79) 56%, rgb(254, 116, 79) 100%);
+   background-image: -ms-linear-gradient(90deg, rgb(254, 80, 79) 0%, rgb(254, 98, 79) 56%, rgb(254, 116, 79) 100%);
+   box-shadow: 0px 19px 49px 0px rgba(254, 88, 81, 0.1), 0px 4px 0px 0px rgba(230, 60, 60, 0.004);
+   cursor: pointer;
+   position: relative;
+   line-height: 1.5;
+   overflow: hidden;
+}
+.sale__button::before {
+   content: "";
+   display: block;
+   width: 1.9792vw;
+   height: 1.9792vw;
+   position: absolute;
+   background: url(../icon/calc.png) center center no-repeat;
+   background-size: cover;
+   left: 2.3vw;
+   top: 1.6vw;
+}
+.section__license {
+   width: 19.2708vw;
+   margin-right: 1.4vw;
+}
+.license__desc {
+   font-size: 0.938vw;
+   font-weight: 700;
+   min-height: 3.4vw;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+   line-height: 1.5;
+   margin-bottom: 0.7vw;
+}
+.popup {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   display: none;
+   text-align: center;
+}
+
+.popup__bg {
+   background: rgba(0, 0, 0, 0.7);
+   position: absolute;
+   z-index: 10;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
+
+.popup__img {
+   position: relative;
+   top: 5vw;
+   margin: 0 auto;
+   z-index: 20;
+   width: 70vh;
+   border-radius: 1vw;
+   -webkit-border-radius: 0.5vw;
+   -moz-border-radius: 1vw;
+   -ms-border-radius: 1vw;
+   -o-border-radius: 1vw;
+   overflow: hidden;
+}
+.popup__pic {
+   width: 100%;
+}
+.popup__map {
+   position: relative;
+   margin: 10vh auto 0;
+   z-index: 20;
+   width: 90vw;
+   height: 80vh;
+   border-radius: 1vw;
+   -webkit-border-radius: 0.5vw;
+   -moz-border-radius: 1vw;
+   -ms-border-radius: 1vw;
+   -o-border-radius: 1vw;
+   overflow: hidden;
+   background: #fff;
+}
+
+.consultation__button::after, .sale__button::after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 2.5vw;
+   height: 100%;
+   background: rgba(255, 255, 255, 0.7);
+   transform: translateX(-8vw) skewX(-45deg);
+   -webkit-transform: translateX(-8vw) skewX(-45deg);
+   -moz-transform: translateX(-8vw) skewX(-45deg);
+   -ms-transform: translateX(-8vw) skewX(-45deg);
+   -o-transform: translateX(-8vw) skewX(-45deg);
+   animation: move 4s ease-out 4s infinite;
+   -webkit-animation: move 4s ease-out 4s infinite;
+}
+
+@keyframes move {
+   0% {
+      transform: translateX(-8vw) skewX(-45deg);
+      -webkit-transform: translateX(-8vw) skewX(-45deg);
+      -moz-transform: translateX(-8vw) skewX(-45deg);
+      -ms-transform: translateX(-8vw) skewX(-45deg);
+      -o-transform: translateX(-8vw) skewX(-45deg);
+}
+   20% {
+      transform: translateX(25vw) skewX(-45deg);
+      -webkit-transform: translateX(25vw) skewX(-45deg);
+      -moz-transform: translateX(25vw) skewX(-45deg);
+      -ms-transform: translateX(25vw) skewX(-45deg);
+      -o-transform: translateX(25vw) skewX(-45deg);
+}  100% {
+   transform: translateX(25vw) skewX(-45deg);
+      -webkit-transform: translateX(25vw) skewX(-45deg);
+      -moz-transform: translateX(25vw) skewX(-45deg);
+      -ms-transform: translateX(25vw) skewX(-45deg);
+      -o-transform: translateX(25vw) skewX(-45deg);
+}
+}

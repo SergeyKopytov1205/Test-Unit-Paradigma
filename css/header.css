@@ -1,0 +1,166 @@
+body {
+   font-family: "UniNeue", Arial, Helvetica, sans-serif;
+   font-size: 0.833vw;
+   color: #282728;
+   position: relative;
+}
+.background {
+   width: 100%;
+   height: 52.25vw;
+   background: url(../image/backgraund.jpg) center center no-repeat;
+   background-size: cover;
+   overflow: hidden;
+   border-radius: 0 0 5.208vw 5.208vw;
+   -webkit-border-radius: 0 0 5.208vw 5.208vw;
+   -moz-border-radius: 0 0 5.208vw 5.208vw;
+   -ms-border-radius: 0 0 5.208vw 5.208vw;
+   -o-border-radius: 0 0 5.208vw 5.208vw;
+}
+.container {
+   width: 81.771vw;
+   margin: 0 auto;
+}
+.header {
+   margin: 1.8229vw 0 2.6vw;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__logo {
+   display: flex;
+   align-items: center;
+   width: 29.688vw;
+   
+}
+.logo__img {
+   flex-basis: 9.635vw;
+}
+.logo__pic {
+   width: 100%;
+}
+.header__title {
+   flex-basis: 20.052vw;
+   padding-left: 1.823vw;
+}
+.title__content {
+   font-size: 0.938vw;
+   font-weight: 500;
+}
+.title__bold {
+   font-weight: 700;
+}
+.header__location {
+   display: flex;
+   align-items: center;
+   margin-right: 2.8vw;
+}
+.location__map {
+   width: 4.01vw;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   border: 0.026vw solid #dddddd;
+   cursor: pointer;
+}
+.header__location:hover .location__citi, .header__location:hover .location__desc {
+   cursor: pointer;
+   color: orange;
+   text-decoration: underline dashed 1px orange;
+}
+.location__icon {
+   width: 100%;
+}
+.location__desc {
+   flex-basis: 8.3333vw;
+   padding-left: 0.7813vw;
+}
+.location__citi {
+   font-weight: 800;
+   font-size: 0.833vw;
+}
+.location__street {
+   font-weight: 500;
+   font-size: 0.833vw;
+}
+.header__consultation {
+   margin-right: 2.6vw;
+}
+.consultation__button {
+   border-radius: 0.2604vw;
+   background-color: #313d4b;
+   flex-basis: 0.2604vw;
+   padding: 1.4vw 1.7vw;
+   -webkit-border-radius: 0.2604vw;
+   -moz-border-radius: 0.2604vw;
+   -ms-border-radius: 0.2604vw;
+   -o-border-radius: 0.2604vw;
+   color: #ffffff;
+   font-weight: 700;
+   font-size: 0.833vw;
+   box-shadow: none;
+   cursor: pointer;
+   position: relative;
+   overflow: hidden;
+}
+.header__contacts {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex-basis: 11.7188vw;
+}
+.contacts__tel {
+   width: 100%;
+   margin-bottom: 0.3208vw;
+}
+.tel__image {
+   display: inline-block;
+   width: 1.0417vw;
+   height: 1.0417vw;
+}
+.tel__icon {
+   width: 100%;
+}
+.tel__number {
+   display: inline-block;
+   flex-basis: 10.4167vw;
+   white-space: nowrap;
+}
+.tel__link {
+   font-size: 1.146vw;
+   font-weight: 800;
+   text-decoration: none;
+   color: #000000;
+}
+.contacts__list {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   width: 100%;
+}
+.contacts__link {
+   display: block;
+   width: 2.6042vw;
+   height: 2.6042vw;
+   margin: 0 0.2604vw;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   
+} 
+.contacts__link-viber {
+   background: url(../icon/viber.png) center center no-repeat #7460f3;
+   background-size: 50%;
+}
+.contacts__link-teleg {
+   background: url(../icon/telega.png) center center no-repeat #00a2f2;
+   background-size: 50%;
+}
+.contacts__link-whatsapp {
+   background: url(../icon/wtsp.png) center center no-repeat #25d266;
+   background-size: 50%;
+}

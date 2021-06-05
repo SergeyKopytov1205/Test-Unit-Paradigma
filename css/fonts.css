@@ -1,0 +1,103 @@
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueThin-Italic.ttf) format("truetype");
+   font-weight: 100;
+   font-style: italic;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueThin.ttf) format("truetype");
+   font-weight: 100;
+   font-style: normal;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueLight-Italic.ttf) format("truetype");
+   font-weight: 300;
+   font-style: italic;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueLight.ttf) format("truetype");
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueBook-Italic.ttf) format("truetype");
+   font-weight: 400;
+   font-style: italic;
+}
+
+@font-face { 
+   font-family: "UniNeue Book";
+   src: url(../fonts/UniNeueBook.ttf) format("truetype");
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueRegular-Italic.ttf) format("truetype");
+   font-weight: 500;
+   font-style: italic;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueRegular.ttf) format("truetype");
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueBold-Italic.ttf) format("truetype");
+   font-weight: 700;
+   font-style: italic;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueBold.ttf) format("truetype");
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueHeavy-Italic.ttf) format("truetype");
+   font-weight: 800;
+   font-style: italic;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueHeavy.ttf) format("truetype");
+   font-weight: 800;
+   font-style: normal;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueBlack-Italic.ttf) format("truetype");
+   font-weight: 900;
+   font-style: italic;
+}
+
+@font-face { 
+   font-family: "UniNeue";
+   src: url(../fonts/UniNeueBlack.ttf) format("truetype");
+   font-weight: 900;
+   font-style: normal;
+}
+
+
+
+
+
+
